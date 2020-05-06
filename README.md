@@ -14,6 +14,24 @@ lib/MainWidget/login/login_screens.dart and search for the widget then use it.
 #
 <img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/101206.jpg" width="400" height="600">
 
+# Features:
+Authentication  
+E- wallet -> which consist of :  1. Qr code scan for payment  
+                                 2. Bill payment  
+                                 3. Transaction history list view  
+                                 4. Send  
+                                 5. Some promotion bar
+personal note 
+Dashboard (to view annulay usage)  
+
+                                 
+
+# Technologies:
+
+Android  
+FLutter  
+Adobe XD (For UI design)
+
 # Note: 
 use username : preview  
 password : 12345  
