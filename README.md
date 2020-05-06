@@ -1,6 +1,11 @@
 # Simple-Money
 
-A new Flutter project.
+A new Flutter project, i build this app for my software desing and planning assignment
+
+
+Login UI First concept :
+![Login UI ](https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/Pembaharuan%20tampilan%20login.jpeg)
+
 
 ## Getting Started
 
