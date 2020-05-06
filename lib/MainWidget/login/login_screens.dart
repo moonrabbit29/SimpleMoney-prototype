@@ -172,7 +172,7 @@ class _LoginScreenState extends State<LoginScreen> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
-        color: Colors.lightBlue,
+        color: Colors.purpleAccent.withOpacity(0.6),
         child: Text(
           'LOGIN',
           style: TextStyle(
@@ -330,25 +330,14 @@ class _LoginScreenState extends State<LoginScreen> {
             children: <Widget>[
               Container(
                 padding: EdgeInsets.all(30),
-                height: 700,
+                height: 240,
                 width: double.infinity,
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(
-                          'assets/40550.jpg',
+                          'assets/simple.png',
                         ),
                         fit: BoxFit.fill)
-                    /*gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Color(0xFF73AEF5),
-                      Color(0xFF61A4F1),
-                      Color(0xFF478DE0),
-                      Color(0xFF398AE5),
-                    ],
-                    stops: [0.1, 0.4, 0.7, 0.9],
-                  ),*/
                     ),
               ),
               Container(
@@ -361,21 +350,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 40.0,
-                    vertical: 120.0,
+                    vertical: 145.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(
-                        'Sign In',
-                        style: TextStyle(
-                          color: Colors.black54,
-                          fontFamily: 'OpenSans',
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      SizedBox(height: 40.0),
+                      SizedBox(height: 120.0),
                       _buildEmailTF(),
                       SizedBox(
                         height: 20.0,
@@ -385,14 +365,14 @@ class _LoginScreenState extends State<LoginScreen> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          _buildRememberMeCheckbox(),
-                          _buildForgotPasswordBtn(),
+                        // _buildRememberMeCheckbox(), use this to make remember me check box appear
+                          //_buildForgotPasswordBtn(),use this to make forgot password check box appear
                         ],
                       ),
                       _buildLoginBtn(),
-                      _buildSignInWithText(),
-                      _buildSocialBtnRow(),
-                      _buildSignupBtn(),
+                      //_buildSignInWithText(),
+                      //_buildSocialBtnRow(),
+                      //_buildSignupBtn(),
                       SizedBox(
                         height:4
                       ),
