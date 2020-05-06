@@ -5,14 +5,19 @@ A new Flutter project, i build this app for my software desing and planning assi
 
 # Login UI First concept :
 
-<img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/Pembaharuan%20tampilan%20login.jpeg" width="400" height="790">
+<img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/Pembaharuan%20tampilan%20login.jpeg" width="400" height="600">
 
 # Another option :
 I allready made the widget for all shown widget bellow you can go to
 lib/MainWidget/login/login_screens.dart and search for the widget then use it.
 
 #
-<img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/101206.jpg" width="400" height="790">
+<img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/101206.jpg" width="400" height="600">
+
+# Note: 
+use username : preview
+    password : 12345
+to login into app or you can go to lib/MainWidget/login/login_screens.dart then search for  _buildloginbtn widget and do the cahnge
 
 
 ## Getting Started
