@@ -15,8 +15,8 @@ lib/MainWidget/login/login_screens.dart and search for the widget then use it.
 <img src="https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/101206.jpg" width="400" height="600">
 
 # Note: 
-use username : preview
-    password : 12345
+use username : preview  
+password : 12345  
 to login into app or you can go to lib/MainWidget/login/login_screens.dart then search for  _buildloginbtn widget and do the cahnge
 
 
