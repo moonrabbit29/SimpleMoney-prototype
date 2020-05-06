@@ -3,8 +3,16 @@
 A new Flutter project, i build this app for my software desing and planning assignment
 
 
-Login UI First concept :
+# Login UI First concept :
+
 ![Login UI ](https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/Pembaharuan%20tampilan%20login.jpeg)
+
+# Another option :
+I allready made the widget for all shown widget bellow you can go to
+lib/MainWidget/login/login_screens.dart and search for the widget then use it.
+
+#
+![Login UI](https://github.com/dendiaryar/SimpleMoney-prototype/blob/master/101206.jpg)
 
 
 ## Getting Started
